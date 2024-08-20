@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://avel.vercel.app/sitemap.xml
