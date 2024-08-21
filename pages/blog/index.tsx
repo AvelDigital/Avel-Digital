@@ -1,6 +1,6 @@
 import Head from '../../components/Head'
 import Header from '../../components/Header'
-import { Main } from '../../styles/pages/blog'
+import { Main } from '../../styles/pages/blogs'
 import Footer from '../../components/Footer'
 
 function BlogHome() {
