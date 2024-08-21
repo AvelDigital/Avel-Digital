@@ -1,12 +1,14 @@
 import { FC } from 'react'
 import { AppProps } from 'next/app'
+import { ThemeProvider } from 'styled-components'
+import theme from '../styles/theme'
 import Head from 'next/head'
 import GlobalStyle from '../styles/global'
 import 'swiper/css'
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <Head>
         <meta charSet="UTF-8"/>
         <meta name="rating" content="general"/>
@@ -26,7 +28,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       </Head>
       <Component {...pageProps}/>
       <GlobalStyle/>
-    </>
+    </ThemeProvider>
   )
 }
 

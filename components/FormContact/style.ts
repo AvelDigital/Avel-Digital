@@ -32,7 +32,7 @@ export const Field = styled.div<IField>`
 `
 
 export const Label = styled.span`
-    color: #000000;
+    color: ${props => props.theme.colors.primary};
 `
 
 export const Input = styled.input`
@@ -40,7 +40,7 @@ export const Input = styled.input`
     font-size: 1.2em;
     margin-top: 0.5em;
     border-radius: 5px;
-    border: 2px solid #000000;
+    border: 2px solid ${props => props.theme.colors.primary};
 `
 
 export const InputSelect = styled.select`
@@ -48,7 +48,7 @@ export const InputSelect = styled.select`
     font-size: 1.2em;
     margin-top: 0.5em;
     border-radius: 5px;
-    border: 2px solid #000000;
+    border: 2px solid ${props => props.theme.colors.primary};
 `
 
 export const InputTextarea = styled.textarea`
@@ -57,7 +57,7 @@ export const InputTextarea = styled.textarea`
     resize: vertical;
     margin-top: 0.5em;
     border-radius: 5px;
-    border: 2px solid #000000;
+    border: 2px solid ${props => props.theme.colors.primary};
 `
 
 export const Button = styled.button`
@@ -66,22 +66,22 @@ export const Button = styled.button`
     display: flex;
     padding: 1.5em;
     font-size: 1em;
-    color: #001238;
     margin-top: 2em;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
     align-items: center;
     border-radius: 20px;
-    border: 3px solid #001238;
     transition-duration: 0.2s;
     background-color: transparent;
     transition-timing-function: linear;
+    color: ${props => props.theme.colors.primary};
+    border: 3px solid ${props => props.theme.colors.primary};
 
     &:hover {
-        color: #FFFFFF;
-        border: 3px solid #001238;
-        background-color: #001238;
+        color: ${props => props.theme.colors.secondary};
+        border: 3px solid ${props => props.theme.colors.primary};
+        background-color: ${props => props.theme.colors.primary};
     }
 
     @media screen and (max-width: 900px) {

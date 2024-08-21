@@ -8,26 +8,26 @@ export default createGlobalStyle`
         box-sizing: border-box;
         flex-direction: column;
         scroll-behavior: smooth;
-        scrollbar-color: #0d026e #000000;
         font-family: "Montserrat", sans-serif;
+        scrollbar-color: ${props => props.theme.colors.primary} ${props => props.theme.backgrounds.secondary};
         
         ::-webkit-scrollbar {
             width: 12px;
         }
 
         ::-webkit-scrollbar-track {
-            background: #000000;
+            background: ${props => props.theme.backgrounds.secondary};
         }
 
         ::-webkit-scrollbar-thumb {
             border-radius: 16px;
-            background-color: #0d026e;
+            background-color: ${props => props.theme.colors.primary};
         }
     }
 
     body {
-        color: #FFFFFF;
-        background-color: #000000;
+        color: ${props => props.theme.colors.secondary};
+        background-color: ${props => props.theme.backgrounds.secondary};
     }
 
     .swiper .swiper-wrapper {

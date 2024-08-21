@@ -35,7 +35,6 @@ export const Button = styled(Link)`
     display: flex;
     padding: 1.5em;
     font-size: 1em;
-    color: #FFFFFF;
     margin-top: 2em;
     cursor: pointer;
     font-weight: bold;
@@ -43,14 +42,15 @@ export const Button = styled(Link)`
     border-radius: 20px;
     text-decoration: none;
     align-self: flex-start;
-    border: 3px solid #FFFFFF;
     transition-duration: 0.2s;
     transition-timing-function: linear;
+    color: ${props => props.theme.colors.secondary};
+    border: 3px solid ${props => props.theme.colors.secondary};
 
     &:hover {
-        color: #001238;
-        border: 3px solid #FFFFFF;
-        background-color: #FFFFFF;
+        color: ${props => props.theme.colors.primary};
+        border: 3px solid ${props => props.theme.colors.secondary};
+        background-color: ${props => props.theme.colors.secondary};
     }
 
     @media screen and (max-width: 900px) {

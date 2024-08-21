@@ -40,7 +40,7 @@ interface IIconMenu {
 
 export const IconMenu = styled.svg<IIconMenu>`
     z-index: -2;
-    fill: ${props => !props.$black ? '#FFFFFF' : '#000000'};
+    fill: ${props => !props.$black ? props.theme.colors.secondary : props.theme.colors.primary};
 `
 
 interface IOptions {
@@ -60,8 +60,8 @@ export const Options = styled.ul<IOptions>`
         padding-top: 5em;
         position: absolute;
         flex-direction: column;
-        background-color: #FFFFFF;
         display: ${props => props.$show ? 'flex' : 'none'};
+        background-color: ${props => props.theme.backgrounds.primary};
     }
 `
 
@@ -77,10 +77,10 @@ export const OptionText = styled(Link)<IOptionText>`
     font-size: 1em;
     list-style: none;
     text-decoration: none;
-    color: ${props => props.$black ? '#000000' : '#FFFFFF'};
+    color: ${props => !props.$black ? props.theme.colors.secondary : props.theme.colors.primary};
 
     @media screen and (max-width: 900px) {
-        color: #000000;
+        color: ${props => props.theme.colors.primary};
     }
 `
 
@@ -92,7 +92,6 @@ export const Button = styled(Link)<IButton>`
     display: none;
     padding: 1.5em;
     font-size: 1em;
-    color: #001238;
     margin-top: 2em;
     cursor: pointer;
     font-weight: bold;
@@ -100,14 +99,15 @@ export const Button = styled(Link)<IButton>`
     align-self: center;
     border-radius: 20px;
     text-decoration: none;
-    border: 3px solid #001238;
     transition-duration: 0.2s;
     transition-timing-function: linear;
+    color: ${props => props.theme.colors.primary};
+    border: 3px solid ${props => props.theme.colors.primary};
 
     &:hover {
-        color: #FFFFFF;
-        border: 3px solid #001238;
-        background-color: #001238;
+        color: ${props => props.theme.colors.secondary};
+        border: 3px solid ${props => props.theme.colors.primary};
+        background-color: ${props => props.theme.colors.primary};
     }
 
     @media screen and (max-width: 900px) {

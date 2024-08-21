@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: flex;
     padding-top: 2em;
     align-items: center;
-    background-color: #000000;
+    background-color: ${props => props.theme.backgrounds.secondary};
 `
 
 export const Title = styled.h3`

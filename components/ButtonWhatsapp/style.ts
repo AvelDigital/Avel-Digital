@@ -19,5 +19,5 @@ export const Container = styled.a`
 
 export const Icon = styled.svg`
     width: 100%;
-    fill: #FFFFFF;
+    fill: ${props => props.theme.colors.secondary};
 `

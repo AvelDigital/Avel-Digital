@@ -54,5 +54,5 @@ interface IIconPhone {
 }
 
 export const IconPhone = styled.svg<IIconPhone>`
-    fill: ${props => !props.$black ? '#FFFFFF' : '#000000'};
+    fill: ${props => !props.$black ? props.theme.colors.secondary : props.theme.colors.primary};
 `

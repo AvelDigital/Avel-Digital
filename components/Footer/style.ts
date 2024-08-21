@@ -37,7 +37,7 @@ export const ContainerIconSocial = styled.a`
 `
 
 export const IconSocial = styled.svg`
-    fill: #FFFFFF;
+    fill: ${props => props.theme.colors.secondary};
 `
 
 export const Logo = styled(Image)`
@@ -79,11 +79,11 @@ export const SectionTitle = styled.span`
 `
 
 export const SectionLink = styled(Link)`
-    color: #FFFFFF;
     text-decoration: none;
+    color: ${props => props.theme.colors.secondary};
 
     &:hover {
-        text-decoration: underline #FFFFFF;
+        text-decoration: underline ${props => props.theme.colors.secondary};
     }
 `
 
@@ -101,11 +101,11 @@ export const SectionsRowEnd = styled.div`
 `
 
 export const SectionEndLink = styled.a`
-    color: #FFFFFF;
     text-decoration: none;
+    color: ${props => props.theme.colors.secondary};
 
     &:hover {
-        text-decoration: underline #FFFFFF;
+        text-decoration: underline ${props => props.theme.colors.secondary};
     }
 `
 
@@ -113,21 +113,21 @@ export const SectionEndButton = styled(Link)`
     display: flex;
     padding: 1.5em;
     font-size: 1em;
-    color: #FFFFFF;
     margin-top: 2em;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
     border-radius: 20px;
     text-decoration: none;
-    border: 3px solid #FFFFFF;
     transition-duration: 0.2s;
     transition-timing-function: linear;
+    color: ${props => props.theme.colors.secondary};
+    border: 3px solid ${props => props.theme.colors.secondary};
 
     &:hover {
-        color: #001238;
-        border: 3px solid #FFFFFF;
-        background-color: #FFFFFF;
+        color: ${props => props.theme.colors.primary};
+        border: 3px solid ${props => props.theme.colors.secondary};
+        background-color: ${props => props.theme.colors.secondary};
     }
 
     @media screen and (max-width: 900px) {
@@ -136,11 +136,11 @@ export const SectionEndButton = styled(Link)`
 `
 
 export const Privacy = styled(Link)`
-    color: #FFFFFF;
     margin-top: 4em;
     font-size: 0.8em;
     margin-right: auto;
     text-align: center;
+    color: ${props => props.theme.colors.secondary};
 `
 
 export const Copyright = styled.span`

@@ -7,7 +7,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: #FFFFFF;
+    background-color: ${props => props.theme.backgrounds.primary};
 
     @media screen and (max-width: 900px) {
         padding: 3em 2em;
@@ -28,13 +28,13 @@ export const Left = styled.div`
 
 export const Subtitle = styled.h4`
     font-size: 1em;
-    color: #001238;
     font-weight: 300;
+    color: ${props => props.theme.colors.primary};
 `
 
 export const Title = styled.h3`
     font-size: 3em;
-    color: #001238;
+    color: ${props => props.theme.colors.primary};
 
     @media screen and (max-width: 900px) {
         font-size: 2em;
@@ -43,10 +43,10 @@ export const Title = styled.h3`
 
 export const Description = styled.span`
     width: 80%;
-    color: #001238;
     font-size: 1em;
     margin-top: 1em;
     font-weight: 300;
+    color: ${props => props.theme.colors.primary};
 
     @media screen and (max-width: 900px) {
         width: 100%;
@@ -57,7 +57,6 @@ export const Button = styled(Link)`
     display: flex;
     padding: 1.5em;
     font-size: 1em;
-    color: #001238;
     margin-top: 2em;
     cursor: pointer;
     font-weight: bold;
@@ -65,14 +64,15 @@ export const Button = styled(Link)`
     border-radius: 20px;
     text-decoration: none;
     align-self: flex-start;
-    border: 3px solid #001238;
     transition-duration: 0.2s;
     transition-timing-function: linear;
+    color: ${props => props.theme.colors.primary};
+    border: 3px solid ${props => props.theme.colors.primary};
 
     &:hover {
-        color: #FFFFFF;
-        border: 3px solid #001238;
-        background-color: #001238;
+        color: ${props => props.theme.colors.secondary};
+        border: 3px solid ${props => props.theme.colors.primary};
+        background-color: ${props => props.theme.colors.primary};
     }
 
     @media screen and (max-width: 900px) {

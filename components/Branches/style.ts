@@ -4,7 +4,7 @@ export const Container = styled.div`
     display: flex;
     padding-top: 5em;
     align-items: center;
-    background-color: #000000;
+    background-color: ${props => props.theme.backgrounds.secondary};
 
     @media screen and (max-width: 900px) {
         padding-top: 4em;
@@ -48,7 +48,7 @@ export const Branch = styled.div`
 
 export const BranchIcon = styled.svg`
     width: 3em;
-    fill: #FFFFFF;
+    fill: ${props => props.theme.colors.secondary};
 `
 
 export const BranchTitle = styled.h4`

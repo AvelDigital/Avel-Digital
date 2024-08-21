@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-    background-color: #FFFFFF;
+    background-color: ${props => props.theme.backgrounds.primary};
 `
 
 export const Content = styled.div`
@@ -13,7 +13,7 @@ export const Content = styled.div`
     align-self: center;
     align-items: center;
     border-radius: 20px;
-    background-color: #030243;
+    background-color: ${props => props.theme.backgrounds.tertiary};
 
     @media screen and (max-width: 900px) {
        width: 100%;
@@ -57,9 +57,9 @@ export const Input = styled.input`
     width: 55%;
     border: none;
     padding: 1em;
-    color: #001238;
     font-size: 1.2em;
     border-radius: 15px;
+    ${props => props.theme.colors.primary}
 
     &:focus {
         outline: none;
@@ -74,21 +74,21 @@ export const Button = styled.button`
     display: flex;
     padding: 1.5em;
     font-size: 1em;
-    color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
     border-radius: 20px;
     text-decoration: none;
-    border: 3px solid #FFFFFF;
     transition-duration: 0.2s;
     background-color: transparent;
     transition-timing-function: linear;
+    color: ${props => props.theme.colors.secondary};
+    border: 3px solid ${props => props.theme.colors.secondary};
 
     &:hover {
-        color: #001238;
-        border: 3px solid #FFFFFF;
-        background-color: #FFFFFF;
+        color: ${props => props.theme.colors.primary};
+        border: 3px solid ${props => props.theme.colors.secondary};
+        background-color: ${props => props.theme.colors.secondary};
     }
 
     @media screen and (max-width: 900px) {

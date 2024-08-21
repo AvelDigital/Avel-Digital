@@ -19,7 +19,7 @@ export const Texts = styled.div`
 
 export const Title = styled.h1`
     font-size: 5em;
-    color: #000000;
+    color: ${props => props.theme.colors.primary};
 
     @media screen and (max-width: 900px) {
         font-size: 3em;
@@ -28,7 +28,7 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.h3`
     font-size: 1em;
-    color: #000000;
     margin-top: 1em;
     font-weight: 400;
+    color: ${props => props.theme.colors.primary};
 `
