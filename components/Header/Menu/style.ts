@@ -57,12 +57,49 @@ export const Options = styled.ul<IOptions>`
         width: 85vw;
         padding: 1em;
         height: 100vh;
-        padding-top: 5em;
+        padding-top: 2em;
         position: absolute;
         flex-direction: column;
         display: ${props => props.$show ? 'flex' : 'none'};
         background-color: ${props => props.theme.backgrounds.primary};
     }
+`
+
+interface IHeaderMenu {
+    $show: boolean
+}
+
+export const HeaderMenu = styled.div<IHeaderMenu>`
+    width: 100%;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media screen and (max-width: 900px) {
+        display: ${props => props.$show ? 'flex' : 'none'};
+    }
+`
+
+export const ContainerHeaderMenuIcon = styled.button`
+    width: 2em;
+    border: none;
+    background-color: transparent;
+`
+
+export const HeaderMenuIcon = styled.svg`
+    width: 100%;
+    fill: ${props => props.theme.colors.primary};
+`
+
+export const ContainerHeaderMenuIconSocial = styled.a`
+    width: 1.5em;
+    border: none;
+    background-color: transparent;
+`
+
+export const HeaderMenuIconSocial = styled.svg`
+    width: 100%;
+    fill: ${props => props.theme.colors.primary};
 `
 
 export const Option = styled.li`
