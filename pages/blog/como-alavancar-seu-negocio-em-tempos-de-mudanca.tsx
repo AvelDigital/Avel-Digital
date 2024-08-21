@@ -19,7 +19,7 @@ function Blog() {
         <Main>
             <Title>{blog.title}</Title>
             <About>{blog.author} • {blog.date}</About>
-            <Image src={blog.image.src} alt={blog.image.alt}/>
+            <Image placeholder="blur" src={blog.image.src} alt={blog.image.alt}/>
             <Subtitle>A Nova Era dos Negócios</Subtitle>
             <Paragraph>Vivemos em uma época de mudanças constantes, onde a adaptabilidade se tornou a chave para o sucesso. As transformações tecnológicas e comportamentais têm impactado profundamente a forma como fazemos negócios, exigindo que empresas de todos os tamanhos repensem suas estratégias e abordagens. Nesse cenário, entender as tendências e saber como aplicá-las pode ser a diferença entre estagnar ou crescer.</Paragraph>
             <Subtitle>Entendendo o Novo Consumidor</Subtitle>
