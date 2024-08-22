@@ -14,7 +14,7 @@ function Insights() {
                     </Blog>
                 ))}
             </Blogs>
-            <Button>Quero uma consultoria gratuita</Button>
+            <Button href="/contact">Quero uma consultoria gratuita</Button>
         </Container>
     )
 }

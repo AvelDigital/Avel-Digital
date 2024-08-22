@@ -51,7 +51,7 @@ export const BlogDescription = styled.span`
     font-size: ${props => props.theme.fonts.description};
 `
 
-export const Button = styled.button`
+export const Button = styled(Link)`
     display: flex;
     padding: 1.5em;
     font-size: 1em;
@@ -62,7 +62,6 @@ export const Button = styled.button`
     border-radius: 20px;
     text-decoration: none;
     transition-duration: 0.2s;
-    background-color: transparent;
     transition-timing-function: linear;
     color: ${props => props.theme.colors.primary};
     border: 3px solid ${props => props.theme.colors.primary};
