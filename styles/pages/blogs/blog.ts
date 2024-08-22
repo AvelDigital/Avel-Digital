@@ -8,7 +8,7 @@ export const Main = styled.main`
     background-color: ${props => props.theme.backgrounds.primary};
 
     @media screen and (max-width: 900px) {
-        padding: 20% 10%;
+        padding: 25% 10%;
     }
 `
 
