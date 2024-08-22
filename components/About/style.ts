@@ -65,6 +65,10 @@ export const Description = styled.span`
     font-weight: 300;
     color: ${props => props.theme.colors.primary};
 
+    .bold {
+        font-weight: bold;
+    }
+
     @media screen and (max-width: 900px) {
         width: 100%;
     }

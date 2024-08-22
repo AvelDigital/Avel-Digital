@@ -46,11 +46,7 @@ export const Subtitle = styled.h2`
 export const Paragraph = styled.p`
     margin: 0.5em 0;
     color: ${props => props.theme.colors.primary};
-    font-size: ${props => props.theme.fonts.subtitle};
-
-    @media screen and (max-width: 900px) {
-        font-size: ${props => props.theme.fonts.description};
-    }
+    font-size: ${props => props.theme.fonts.description};
 `
 
 export const List = styled.ul`
@@ -62,11 +58,7 @@ export const ListItem = styled.li`
     margin: 0.5em 0;
     margin-left: 1em;
     color: ${props => props.theme.colors.primary};
-    font-size: ${props => props.theme.fonts.subtitle};
-
-    @media screen and (max-width: 900px) {
-        font-size: ${props => props.theme.fonts.description};
-    }
+    font-size: ${props => props.theme.fonts.description};
 `
 
 export const Bold = styled.span`
