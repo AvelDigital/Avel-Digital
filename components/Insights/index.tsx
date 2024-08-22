@@ -8,7 +8,7 @@ function Insights() {
             <Blogs>
                 {blogs.map((blog, index) => (
                     <Blog href={`/blog/${blog.slug}`} key={index}>
-                        <BlogImage src={blog.image.src} alt={blog.image.alt}/>
+                        <BlogImage placeholder="blur" src={blog.image.src} alt={blog.image.alt}/>
                         <BlogTitle>{blog.title}</BlogTitle>
                         <BlogDescription>{blog.description}</BlogDescription>
                     </Blog>
