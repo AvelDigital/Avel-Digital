@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 function Privacy() {
     return <>
-        <Head title="Política de Privacidade" description="Política de Privacidade" url="/privacy"/>
+        <Head url="/privacy" description="Política de Privacidade"/>
         <Header/>
             <Main>
                 <Title>Política de Privacidade</Title>
