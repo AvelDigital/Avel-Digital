@@ -6,7 +6,7 @@ import Footer from '../../components/Footer'
 
 function BlogHome() {
     return <>
-        <Head url="/blog" title="blog" description="Blog de Marketing Digital"/>
+        <Head url="/blog" title="Blog" description="Blog de Marketing Digital"/>
         <Header black/>
         <Main>
             <Title>Blog de Marketing Digital</Title>
