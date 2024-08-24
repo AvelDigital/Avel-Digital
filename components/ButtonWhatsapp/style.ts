@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
-export const Container = styled.a`
+export const Container = styled.button`
     right: 2%;
     bottom: 4%;
     width: 5em;
     z-index: 1;
     padding: 1em;
+    border: none;
     display: flex;
     position: fixed;
     border-radius: 50%;

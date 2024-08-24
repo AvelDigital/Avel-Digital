@@ -2,7 +2,7 @@ import { Container, Field, Label, Input, InputSelect, InputTextarea, Button } fr
 
 function FormContact() {
     return (
-        <Container action="https://api.form-data.com/f/f9taihwla0ayjzz26ys8a" method="POST">
+        <Container action={process.env.NEXT_PUBLIC_FORM_URL} method="POST">
             <Field>
                 <Label>Nome Completo</Label>
                 <Input name="name" id="name"/>
@@ -42,7 +42,7 @@ function FormContact() {
             </Field>
             <Field>
                 <Label>Telefone</Label>
-                <Input/>
+                <Input name="phone" id="phone" type="tel"/>
             </Field>
             <Field>
                 <Label>Cargo</Label>
@@ -59,7 +59,7 @@ function FormContact() {
             </Field>
             <Field $full>
                 <Label>Mensagem</Label>
-                <InputTextarea rows={3}/>
+                <InputTextarea name="message" id="message" rows={3}/>
             </Field>
             <Button>Enviar mensagem</Button>
         </Container>
