@@ -67,6 +67,7 @@ export const SectionsRow = styled.div`
 `
 
 export const Section = styled.div`
+    gap: 0.5em;
     display: flex;
     margin-top: 3em;
     align-items: flex-start;
