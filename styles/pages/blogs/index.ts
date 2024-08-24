@@ -24,13 +24,11 @@ export const Title = styled.h1`
 
 export const Blogs = styled.div`
     gap: 3em;
-    width: 100%;
     display: flex;
     padding: 5em 0;
     margin-left: 4.5em;
 
     @media screen and (max-width: 900px) {
-        width: 90%;
         margin: 0 1em;
         padding: 2em 0;
     }
