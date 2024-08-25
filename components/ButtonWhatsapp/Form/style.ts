@@ -50,20 +50,20 @@ export const Button = styled.button`
     margin: 2em 0;
     font-size: 1em;
     padding: 1.5em;
-    color: #265c54;
+    color: #53a451;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
     align-items: center;
     border-radius: 20px;
-    border: 3px solid #265c54;
+    border: 3px solid #53a451;
     transition-duration: 0.2s;
     background-color: transparent;
     transition-timing-function: linear;
 
     &:hover {
-        border: 3px solid #265c54;
-        background-color: #265c54;
+        border: 3px solid #53a451;
+        background-color: #53a451;
         color: ${props => props.theme.colors.secondary};
     }
 
