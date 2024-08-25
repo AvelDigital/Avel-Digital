@@ -11,6 +11,16 @@ export const Main = styled.main`
     }
 `
 
+export const Subtitle = styled.span`
+    margin-left: 4.5em;
+    color: ${props => props.theme.colors.primary};
+    font-size: ${props => props.theme.fonts.description};
+
+    @media screen and (max-width: 900px) {
+        margin-left: 1.3em;
+    }
+`
+
 export const Title = styled.h1`
     margin-left: 1.5em;
     color: ${props => props.theme.colors.primary};

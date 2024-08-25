@@ -1,6 +1,6 @@
 import Head from '../../components/Head'
 import Header from '../../components/Header'
-import { Main, Title, Blogs, Blog, BlogImage, BlogTexts, BlogTitle, BlogAbout, BlogDescription } from '../../styles/pages/blogs'
+import { Main, Subtitle, Title, Blogs, Blog, BlogImage, BlogTexts, BlogTitle, BlogAbout, BlogDescription } from '../../styles/pages/blogs'
 import blogs from '../../services/blogs'
 import Footer from '../../components/Footer'
 
@@ -9,7 +9,8 @@ function BlogHome() {
         <Head url="/blog" title="Avel Digital - Blog" description="Blog de Marketing Digital"/>
         <Header black/>
         <Main>
-            <Title>Blog de Marketing Digital</Title>
+            <Subtitle>Blog de Marketing Digital</Subtitle>
+            <Title>Inspirações, ideias e insights</Title>
             <Blogs>
                 {blogs.map((blog, index) => (
                     <Blog href={`/blog/${blog.slug}`} key={index}>
