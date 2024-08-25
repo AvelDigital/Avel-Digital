@@ -2,6 +2,7 @@ import Head from '../../components/Head'
 import Header from '../../components/Header'
 import { Main, Subtitle, Title, Blogs, Blog, BlogImage, BlogTexts, BlogTitle, BlogAbout, BlogDescription } from '../../styles/pages/blogs'
 import blogs from '../../services/blogs'
+import Community from '../../components/Community'
 import Footer from '../../components/Footer'
 
 function BlogHome() {
@@ -23,6 +24,7 @@ function BlogHome() {
                     </Blog>
                 ))}
             </Blogs>
+            <Community/>
         </Main>
         <Footer/>
     </>
