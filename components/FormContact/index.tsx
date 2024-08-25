@@ -5,19 +5,19 @@ function FormContact() {
         <Container action={process.env.NEXT_PUBLIC_FORM_URL} method="POST">
             <Field>
                 <Label>Nome Completo</Label>
-                <Input name="name" id="name"/>
+                <Input required name="name" id="name"/>
             </Field>
             <Field>
                 <Label>Empresa</Label>
-                <Input name="company" id="company"/>
+                <Input required name="company" id="company"/>
             </Field>
             <Field>
                 <Label>E-mail corporativo</Label>
-                <Input name="email" id="email" type="email"/>
+                <Input required name="email" id="email" type="email"/>
             </Field>
             <Field>
                 <Label>Segmento</Label>
-                <InputSelect name="segment" id="segment">
+                <InputSelect required name="segment" id="segment">
                     <option>Negócios B2B em Geral</option> 
                     <option>Agronegócio</option> 
                     <option>Atacadista/Distribuidor</option> 
@@ -42,11 +42,11 @@ function FormContact() {
             </Field>
             <Field>
                 <Label>Telefone</Label>
-                <Input name="phone" id="phone" type="tel"/>
+                <Input required name="phone" id="phone" type="tel"/>
             </Field>
             <Field>
                 <Label>Cargo</Label>
-                <InputSelect name="position" id="position"> 
+                <InputSelect required name="position" id="position"> 
                     <option>Analista de Marketing</option> 
                     <option>Gerente/Coordenador de Marketing</option> 
                     <option>Gerente/Coordenador de Vendas</option> 
@@ -61,7 +61,7 @@ function FormContact() {
                 <Label>Mensagem</Label>
                 <InputTextarea name="message" id="message" rows={3}/>
             </Field>
-            <Button>Enviar mensagem</Button>
+            <Button $align="center">Enviar mensagem</Button>
         </Container>
     )
 }

@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import ImageRaw from 'next/image'
-import Link from 'next/link'
 
 export const Container = styled.div`
     padding: 5em;
@@ -63,6 +62,7 @@ export const Description = styled.span`
     font-size: 1em;
     margin-top: 1em;
     font-weight: 300;
+    margin-bottom: 2em;
     color: ${props => props.theme.colors.primary};
 
     .bold {
@@ -71,32 +71,5 @@ export const Description = styled.span`
 
     @media screen and (max-width: 900px) {
         width: 100%;
-    }
-`
-
-export const Button = styled(Link)`
-    display: flex;
-    padding: 1.5em;
-    font-size: 1em;
-    margin-top: 2em;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 20px;
-    text-decoration: none;
-    align-self: flex-start;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
-    color: ${props => props.theme.colors.primary};
-    border: 3px solid ${props => props.theme.colors.primary};
-
-    &:hover {
-        color:${props => props.theme.colors.secondary};
-        border: 3px solid ${props => props.theme.colors.primary};
-        background-color: ${props => props.theme.colors.primary};
-    }
-
-    @media screen and (max-width: 900px) {
-       font-size: 0.8em;
     }
 `

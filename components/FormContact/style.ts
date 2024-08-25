@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Button as ButtonRaw } from '../Button'
 
 export const Container = styled.form`
     gap: 1em;
@@ -60,31 +61,14 @@ export const InputTextarea = styled.textarea`
     border: 2px solid ${props => props.theme.colors.primary};
 `
 
-export const Button = styled.button`
+export const Button = styled(ButtonRaw)`
     width: 50%;
     margin: auto;
-    display: flex;
-    padding: 1.5em;
-    font-size: 1em;
     margin-top: 2em;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
     align-items: center;
-    border-radius: 20px;
-    transition-duration: 0.2s;
-    background-color: transparent;
-    transition-timing-function: linear;
-    color: ${props => props.theme.colors.primary};
-    border: 3px solid ${props => props.theme.colors.primary};
-
-    &:hover {
-        color: ${props => props.theme.colors.secondary};
-        border: 3px solid ${props => props.theme.colors.primary};
-        background-color: ${props => props.theme.colors.primary};
-    }
 
     @media screen and (max-width: 900px) {
         width: 100%;
+        font-size: 1em;
     }
 `

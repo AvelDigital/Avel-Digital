@@ -1,5 +1,6 @@
-import { Container, Header, Title, Social, Logo, ContainerIconSocial, IconSocial, Sections, SectionsRow, Section, SectionTitle, SectionLink, SectionsRowEnd, SectionEndLink, SectionEndButton, Privacy, Copyright } from './style'
+import { Container, Header, Title, Social, Logo, ContainerIconSocial, IconSocial, Sections, SectionsRow, Section, SectionTitle, SectionLink, SectionsRowEnd, SectionEndLink, Privacy, Copyright } from './style'
 import LogoAvelWhiteSRC from '../../public/img/Logo Avel em Branco.png'
+import { ButtonLink } from '../Button'
 
 function Footer() {
     return (
@@ -35,7 +36,7 @@ function Footer() {
                 </SectionsRow>
                 <SectionsRowEnd>
                     <SectionEndLink href="https://api.whatsapp.com/send?phone=5581989119536&text=Quero%20gerar%20mais%20vendas">+55 81 9 8911 - 9536</SectionEndLink>
-                    <SectionEndButton href="/contact">FALAR COM ESPECIALISTA</SectionEndButton>
+                    <ButtonLink href="/contact" $primary="secondary" $secondary="primary">FALAR COM ESPECIALISTA</ButtonLink>
                 </SectionsRowEnd>
             </Sections>
             <Privacy href="/privacy">Política de privacidade</Privacy>

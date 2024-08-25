@@ -58,7 +58,7 @@ const Menu: FC<IProps> = ({ black }) => {
                 <Option>
                     <OptionText $black={black} href="/contact">Fale Conosco</OptionText>
                 </Option>
-                <Button $show={show} href="/contact">
+                <Button $align="center" $show={show} href="/contact">
                     FALAR COM ESPECIALISTA
                 </Button>
             </Options>

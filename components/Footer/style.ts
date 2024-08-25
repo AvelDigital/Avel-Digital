@@ -102,37 +102,12 @@ export const SectionsRowEnd = styled.div`
 `
 
 export const SectionEndLink = styled.a`
+    margin-bottom: 1.6em;
     text-decoration: none;
     color: ${props => props.theme.colors.secondary};
 
     &:hover {
         text-decoration: underline ${props => props.theme.colors.secondary};
-    }
-`
-
-export const SectionEndButton = styled(Link)`
-    display: flex;
-    padding: 1.5em;
-    font-size: 1em;
-    margin-top: 2em;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 20px;
-    text-decoration: none;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
-    color: ${props => props.theme.colors.secondary};
-    border: 3px solid ${props => props.theme.colors.secondary};
-
-    &:hover {
-        color: ${props => props.theme.colors.primary};
-        border: 3px solid ${props => props.theme.colors.secondary};
-        background-color: ${props => props.theme.colors.secondary};
-    }
-
-    @media screen and (max-width: 900px) {
-       font-size: 0.8em;
     }
 `
 

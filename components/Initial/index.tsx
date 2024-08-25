@@ -1,5 +1,6 @@
-import { Container, Content, Subtitle, Button, Video } from './style'
+import { Container, Content, Subtitle, Video } from './style'
 import Title from './Title'
+import { ButtonLink } from '../Button'
 
 function Initial() {
     return (
@@ -7,7 +8,7 @@ function Initial() {
             <Content>
                 <Title/>
                 <Subtitle>Revolucionamos suas operações de marketing, vendas e experiência do usuário, garantindo uma marca eficaz e resultados de negócios excepcionais.</Subtitle>
-                <Button href="/contact">FALAR COM ESPECIALISTA</Button>
+                <ButtonLink $primary="secondary" $secondary="primary" href="/contact">FALAR COM ESPECIALISTA</ButtonLink>
             </Content>
             <Video autoPlay loop muted playsInline> 
                 <source src="/img/video.mp4" type="video/mp4"/>

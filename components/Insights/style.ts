@@ -25,6 +25,7 @@ export const Blogs = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin-top: 2em;
+    margin-bottom: 2em;
     flex-direction: row;
 `
 
@@ -49,30 +50,4 @@ export const BlogDescription = styled.span`
     margin-top: 0.5em;
     color: ${props => props.theme.colors.primary};
     font-size: ${props => props.theme.fonts.description};
-`
-
-export const Button = styled(Link)`
-    display: flex;
-    padding: 1.5em;
-    font-size: 1em;
-    margin-top: 2em;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 20px;
-    text-decoration: none;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
-    color: ${props => props.theme.colors.primary};
-    border: 3px solid ${props => props.theme.colors.primary};
-
-    &:hover {
-        color: ${props => props.theme.colors.secondary};
-        border: 3px solid ${props => props.theme.colors.primary};
-        background-color: ${props => props.theme.colors.primary};
-    }
-
-    @media screen and (max-width: 900px) {
-       font-size: 0.8em;
-    }
 `

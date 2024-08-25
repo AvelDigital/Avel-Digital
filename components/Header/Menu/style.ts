@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components'
 import Link from 'next/link'
+import { ButtonLink } from '../../Button'
 
 interface IContainer {
     $show?: boolean
@@ -125,30 +126,11 @@ interface IButton {
     $show?: boolean
 }
 
-export const Button = styled(Link)<IButton>`
+export const Button = styled(ButtonLink)<IButton>`
     display: none;
-    padding: 1.5em;
-    font-size: 1em;
     margin-top: 2em;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
-    align-self: center;
-    border-radius: 20px;
-    text-decoration: none;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
-    color: ${props => props.theme.colors.primary};
-    border: 3px solid ${props => props.theme.colors.primary};
-
-    &:hover {
-        color: ${props => props.theme.colors.secondary};
-        border: 3px solid ${props => props.theme.colors.primary};
-        background-color: ${props => props.theme.colors.primary};
-    }
 
     @media screen and (max-width: 900px) {
-       font-size: 0.8em;
        display: ${props => props.$show ? 'flex' : 'none'};
     }
 `

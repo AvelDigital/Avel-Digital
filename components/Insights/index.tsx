@@ -1,5 +1,6 @@
 import blogs from '../../services/blogs'
-import { Container, Title, Blogs, Blog, BlogImage, BlogTitle, BlogDescription, Button } from './style'
+import { Container, Title, Blogs, Blog, BlogImage, BlogTitle, BlogDescription } from './style'
+import { ButtonLink } from '../Button'
 
 function Insights() {
     return (
@@ -14,7 +15,7 @@ function Insights() {
                     </Blog>
                 ))}
             </Blogs>
-            <Button href="/contact">Quero uma consultoria gratuita</Button>
+            <ButtonLink $align="center" href="/contact">Quero uma consultoria gratuita</ButtonLink>
         </Container>
     )
 }

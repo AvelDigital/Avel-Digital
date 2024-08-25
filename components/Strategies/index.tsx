@@ -1,5 +1,6 @@
-import { Container, Left, Photo, Right, Subtitle, Title, Description, Button } from './style'
+import { Container, Left, Photo, Right, Subtitle, Title, Description } from './style'
 import PhotoStrategiesSRC from '../../public/img/strategies.jpg'
+import { ButtonLink } from '../Button'
 
 function Strategies() {
     return (
@@ -11,7 +12,7 @@ function Strategies() {
                 <Subtitle>estratégias e negócios</Subtitle>
                 <Title>Impulsionamos a sua empresa!</Title>
                 <Description>Nossos serviços são focados no elemento mais importante: o usuário. Por isso, todas as nossas soluções tem o objetivo de desenvolver clientes leais para a sua marca.</Description>
-                <Button href="/contact">FALAR COM ESPECIALISTA</Button>
+                <ButtonLink href="/contact">FALAR COM ESPECIALISTA</ButtonLink>
             </Right>
         </Container>
     )

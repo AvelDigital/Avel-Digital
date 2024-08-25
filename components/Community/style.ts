@@ -69,29 +69,3 @@ export const Input = styled.input`
         width: 100%;
     }
 `
-
-export const Button = styled.button`
-    display: flex;
-    padding: 1.5em;
-    font-size: 1em;
-    cursor: pointer;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 20px;
-    text-decoration: none;
-    transition-duration: 0.2s;
-    background-color: transparent;
-    transition-timing-function: linear;
-    color: ${props => props.theme.colors.secondary};
-    border: 3px solid ${props => props.theme.colors.secondary};
-
-    &:hover {
-        color: ${props => props.theme.colors.primary};
-        border: 3px solid ${props => props.theme.colors.secondary};
-        background-color: ${props => props.theme.colors.secondary};
-    }
-
-    @media screen and (max-width: 900px) {
-       font-size: 0.8em;
-    }
-`
