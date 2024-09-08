@@ -20,7 +20,7 @@ const Head: FC<IProps> = ({ title='Avel Digital', description='Geramos vendas, v
                 <meta property="og:title" content={title}/>
                 <meta property="og:description" content={description}/>
                 <meta property="og:url" content={process.env.NEXT_PUBLIC_DOMAIN+url}/>
-                <meta property="og:image" content={image}/>
+                <meta property="og:image" content={process.env.NEXT_PUBLIC_DOMAIN+image}/>
                 <meta name="author" content={author}/>
                 <meta name="keywords" content={keywords}/>
             </HeadRaw>
