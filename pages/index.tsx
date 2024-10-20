@@ -1,8 +1,9 @@
 import Head from '../components/Head'
 import Header from '../components/Header'
-import { Main } from '../styles/pages'
+import { Main, FormContainer } from '../styles/pages'
 import ButtonWhatsapp from '../components/ButtonWhatsapp'
 import Initial from '../components/Initial'
+import FormContact from '../components/FormContact'
 import Showcase from '../components/Showcase'
 import About from '../components/About'
 import Branches from '../components/Branches'
@@ -20,6 +21,9 @@ function Home() {
         <Main>
             <ButtonWhatsapp/>
             <Initial/>
+            <FormContainer>
+                <FormContact/>
+            </FormContainer>
             <Showcase/>
             <About/>
             <Branches/>
