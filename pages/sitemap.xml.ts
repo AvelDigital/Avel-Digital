@@ -23,10 +23,6 @@ function generateSitemap() {
                 <lastmod>2024-01-04T03:28:57.455Z</lastmod>
             </url>
             <url>
-                <loc>${process.env.NEXT_PUBLIC_DOMAIN}/contact</loc>
-                <lastmod>2024-01-04T03:28:57.455Z</lastmod>
-            </url>
-            <url>
                 <loc>${process.env.NEXT_PUBLIC_DOMAIN}/blog</loc>
                 <lastmod>2024-01-04T03:28:57.455Z</lastmod>
             </url>

@@ -1,6 +1,6 @@
 import Head from '../components/Head'
 import Header from '../components/Header'
-import { Main, FormContainer } from '../styles/pages'
+import { Main } from '../styles/pages'
 import ButtonWhatsapp from '../components/ButtonWhatsapp'
 import Initial from '../components/Initial'
 import FormContact from '../components/FormContact'
@@ -21,9 +21,7 @@ function Home() {
         <Main>
             <ButtonWhatsapp/>
             <Initial/>
-            <FormContainer>
-                <FormContact/>
-            </FormContainer>
+            <FormContact/>
             <Showcase/>
             <About/>
             <Branches/>
