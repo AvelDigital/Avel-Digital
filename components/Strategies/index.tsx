@@ -12,7 +12,7 @@ function Strategies() {
                 <Subtitle>estratégias e negócios</Subtitle>
                 <Title>Impulsionamos a sua empresa!</Title>
                 <Description>Nossos serviços são focados no elemento mais importante: o usuário. Por isso, todas as nossas soluções tem o objetivo de desenvolver clientes leais para a sua marca.</Description>
-                <ButtonLink href="/contact">FALAR COM ESPECIALISTA</ButtonLink>
+                <ButtonLink href="#form">FALAR COM ESPECIALISTA</ButtonLink>
             </Right>
         </Container>
     )

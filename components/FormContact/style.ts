@@ -4,6 +4,7 @@ import { Button as ButtonRaw } from '../Button'
 export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
+    padding-top: 2em;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: ${props => props.theme.backgrounds.primary};

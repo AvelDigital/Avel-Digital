@@ -15,7 +15,7 @@ function Insights() {
                     </Blog>
                 ))}
             </Blogs>
-            <ButtonLink $align="center" href="/contact">Quero uma consultoria gratuita</ButtonLink>
+            <ButtonLink $align="center" href="#form">Quero uma consultoria gratuita</ButtonLink>
         </Container>
     )
 }

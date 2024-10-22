@@ -31,12 +31,12 @@ function Footer() {
                         <SectionLink href="/blog">Blog</SectionLink>
                         <SectionLink href="#insights">Cases</SectionLink>
                         <SectionLink href="#about">Sobre a Avel</SectionLink>
-                        <SectionLink href="/contact">Fale Conosco</SectionLink>
+                        <SectionLink href="#form">Fale Conosco</SectionLink>
                     </Section>
                 </SectionsRow>
                 <SectionsRowEnd>
                     <SectionEndLink href="https://api.whatsapp.com/send?phone=5581989119536&text=Quero%20gerar%20mais%20vendas">+55 81 9 8911 - 9536</SectionEndLink>
-                    <ButtonLink href="/contact" $primary="secondary" $secondary="primary">FALAR COM ESPECIALISTA</ButtonLink>
+                    <ButtonLink href="#form" $primary="secondary" $secondary="primary">FALAR COM ESPECIALISTA</ButtonLink>
                 </SectionsRowEnd>
             </Sections>
             <Privacy href="/privacy">Política de privacidade</Privacy>

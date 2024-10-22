@@ -2,7 +2,7 @@ import { Container, Texts, Title, Step, StepIcon, StepTexts, StepTitle, StepDesc
 
 function FormContact() {
     return (
-        <Container>
+        <Container id="form">
             <Texts>
                 <Title>Dar o próximo passo leva menos de um minuto</Title>
                 <Step>
