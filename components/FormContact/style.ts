@@ -75,11 +75,14 @@ export const StepDescription = styled.span`
 export const Form = styled.form`
     gap: 1em;
     width: 30%;
+    padding: 1em;
     display: flex;
     margin-top: 4em;
     margin-bottom: 5em;
     align-self: center;
+    border-radius: 10px;
     justify-content: space-between;
+    border: 2px solid ${props => props.theme.colors.primary};
 
     @media screen and (max-width: 900px) {
         width: 90%;
