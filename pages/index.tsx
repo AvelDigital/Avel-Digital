@@ -21,8 +21,8 @@ function Home() {
         <Main>
             <ButtonWhatsapp/>
             <Initial/>
-            <FormContact/>
             <Showcase/>
+            <FormContact/>
             <About/>
             <Branches/>
             <Partners/>
