@@ -83,7 +83,7 @@ function FormContact() {
                         <option>Empresa Junior</option> 
                     </InputSelect>
                 </Field>
-                <Button $align="center">Enviar mensagem</Button>
+                <Button $align="center" $primary="secondary" $secondary="primary">Enviar mensagem</Button>
             </Form>
         </Container>
     )

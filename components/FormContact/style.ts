@@ -6,8 +6,8 @@ export const Container = styled.div`
     flex-wrap: wrap;
     padding-top: 2em;
     flex-direction: row;
+    background-color: #EFEFEF;
     justify-content: space-evenly;
-    background-color: ${props => props.theme.backgrounds.primary};
 `
 
 export const Texts = styled.div`
@@ -24,11 +24,11 @@ export const Texts = styled.div`
 export const Title = styled.h3`
     margin-bottom: 2em;
     color: ${props => props.theme.colors.primary};
-    font-size: ${props => props.theme.fonts.subtitle};
+    font-size: ${props => props.theme.fonts.title};
 
     @media screen and (max-width: 900px) {
+        font-size: 2em;
         text-align: center;
-        font-size: ${props => props.theme.fonts.subtitle};
     }
 `
 
@@ -83,6 +83,7 @@ export const Form = styled.form`
     border-radius: 10px;
     justify-content: space-between;
     border: 2px solid ${props => props.theme.colors.primary};
+    background-color: ${props => props.theme.backgrounds.tertiary};
 
     @media screen and (max-width: 900px) {
         width: 90%;
@@ -100,7 +101,7 @@ export const Field = styled.div`
 `
 
 export const Label = styled.span`
-    color: ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.secondary};
 `
 
 export const Input = styled.input`
