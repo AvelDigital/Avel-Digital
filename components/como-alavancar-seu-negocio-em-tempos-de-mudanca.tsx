@@ -1,8 +1,8 @@
-import blogs from '../../services/blogs'
-import Head from '../../components/Head'
-import Header from '../../components/Header'
-import { Main, Title, About, Image, Subtitle, Paragraph, List, ListItem, Bold } from '../../styles/pages/blogs/blog'
-import Footer from '../../components/Footer'
+import blogs from '../services/blogs'
+import Head from './Head'
+import Header from './Header'
+import { Main, Title, About, Image, Subtitle, Paragraph, List, ListItem, Bold } from '../styles/pages/blogs/blog'
+import Footer from './Footer'
 
 function Blog() {
     const blog = blogs[0]
