@@ -29,7 +29,7 @@ function Home() {
             <Strategies/>
             <Marketing/>
             <Community/>
-            <Insights/>
+            {/* <Insights/> */}
         </Main>
         <Footer/>
     </>

@@ -12,7 +12,7 @@ function BlogHome() {
         <Main>
             <Subtitle>Blog de Marketing Digital</Subtitle>
             <Title>Inspirações, ideias e insights</Title>
-            <Blogs>
+            {/* <Blogs>
                 {blogs.map((blog, index) => (
                     <Blog href={`/blog/${blog.slug}`} key={index}>
                         <BlogImage placeholder="blur" src={blog.image.src} alt={blog.image.alt}/>
@@ -23,7 +23,7 @@ function BlogHome() {
                         </BlogTexts>
                     </Blog>
                 ))}
-            </Blogs>
+            </Blogs> */}
             <Community/>
         </Main>
         <Footer/>
