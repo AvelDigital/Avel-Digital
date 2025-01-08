@@ -1,16 +1,20 @@
+import Line from '../Line'
 import { Container, Title } from './style'
 import LogosSlide from '../LogosSlides'
 import images from './images'
 
 function Showcase() {
     return (
-        <Container>
-            <Title>Grandes empresas escolheram a Avel para estruturar ou acelerar o crescimento</Title>
-            <LogosSlide
-                id="showcase"
-                images={images}
-            />
-        </Container>
+        <>
+            <Line/>
+            <Container>
+                <Title>Empresas que aumentamos seu faturamento em até 300% com campanhas inteligentes</Title>
+                <LogosSlide
+                    id="showcase"
+                    images={images}
+                />
+            </Container>
+        </>
     )
 }
 

@@ -62,7 +62,7 @@ export const Options = styled.ul<IOptions>`
         position: absolute;
         flex-direction: column;
         display: ${props => props.$show ? 'flex' : 'none'};
-        background-color: ${props => props.theme.backgrounds.primary};
+        background-color: ${props => props.theme.backgrounds.secondary};
     }
 `
 
@@ -89,7 +89,7 @@ export const ContainerHeaderMenuIcon = styled.button`
 
 export const HeaderMenuIcon = styled.svg`
     width: 100%;
-    fill: ${props => props.theme.colors.primary};
+    fill: ${props => props.theme.colors.secondary};
 `
 
 export const ContainerHeaderMenuIconSocial = styled.a`
@@ -100,7 +100,7 @@ export const ContainerHeaderMenuIconSocial = styled.a`
 
 export const HeaderMenuIconSocial = styled.svg`
     width: 100%;
-    fill: ${props => props.theme.colors.primary};
+    fill: ${props => props.theme.colors.secondary};
 `
 
 export const Option = styled.li`
@@ -118,7 +118,7 @@ export const OptionText = styled(Link)<IOptionText>`
     color: ${props => !props.$black ? props.theme.colors.secondary : props.theme.colors.primary};
 
     @media screen and (max-width: 900px) {
-        color: ${props => props.theme.colors.primary};
+        color: ${props => props.theme.colors.secondary};
     }
 `
 

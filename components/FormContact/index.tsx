@@ -1,10 +1,12 @@
 import { Container, Texts, Title, Step, StepIcon, StepTexts, StepTitle, StepDescription, Form, Field, Label, Input, InputSelect, Button } from './style'
+import Line from '../Line'
 
 function FormContact() {
     return (
         <Container id="form">
+            <Line/>
             <Texts>
-                <Title>Dar o próximo passo leva menos de um minuto</Title>
+                <Title>Pronto para transformar seu negócio? Preencha o formulário e aguarde o contato de um especialista.</Title>
                 <Step>
                     <StepIcon xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" viewBox="0 0 24 24">
                         <g>
@@ -16,7 +18,7 @@ function FormContact() {
                     </StepIcon>
                     <StepTexts>
                         <StepTitle>Preencha o formulário</StepTitle>
-                        <StepDescription>Envie suas informações de contato. Todos os seus dados estarão seguros, vamos cuidar bem deles.</StepDescription>
+                        <StepDescription>Envie suas informações agora e avance rumo ao sucesso. Seus dados estarão totalmente protegidos conosco.</StepDescription>
                     </StepTexts>
                 </Step>
                 <Step>
@@ -26,7 +28,7 @@ function FormContact() {
                     </StepIcon>
                     <StepTexts>
                         <StepTitle>Receba uma ligação</StepTitle>
-                        <StepDescription>Em até 12 horas, um dos nossos especialistas fará uma ligação para agendar a reunião mais importante com você.</StepDescription>
+                        <StepDescription>Em até 2 horas, um dos nossos especialistas fará uma ligação para agendar a reunião mais importante com você.</StepDescription>
                     </StepTexts>
                 </Step>
             </Texts>
@@ -36,7 +38,7 @@ function FormContact() {
                     <Input required name="name" id="name"/>
                 </Field>
                 <Field>
-                    <Label>E-mail Corporativo</Label>
+                    <Label>E-mail</Label>
                     <Input required name="email" id="email" type="email"/>
                 </Field>
                 <Field>

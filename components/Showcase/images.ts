@@ -6,6 +6,7 @@ import LogoQuererBemSRC from '../../public/img/showcase/logo-querer-bem.png'
 import LogoFaculdadeEbposSRC from '../../public/img/showcase/logo-faculdade-ebpos.png'
 import LogoEcosmetics from '../../public/img/showcase/logo-ecosmetics.png'
 import LogoWisard from '../../public/img/showcase/logo-wisard.png'
+import LogoRCF from '../../public/img/showcase/logo-rcf.png'
 
 const images: ILogosSlides['images'] = [
     { src: LogoCacauShowSRC, alt: 'Logo Cacau Show' },
@@ -14,7 +15,8 @@ const images: ILogosSlides['images'] = [
     { src: LogoQuererBemSRC, alt: 'Logo Querer Bem' },
     { src: LogoFaculdadeEbposSRC, alt: 'Logo Faculdade Ebpós' },
     { src: LogoEcosmetics, alt: 'Logo Ecosmetics' },
-    { src: LogoWisard, alt: 'Logo Wisard' }
+    { src: LogoWisard, alt: 'Logo Wisard' },
+    { src: LogoRCF, alt: 'Logo RCF' }
 ]
 
 export default images

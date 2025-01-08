@@ -46,7 +46,7 @@ const Menu: FC<IProps> = ({ black }) => {
                         </HeaderMenuIconSocial>
                     </ContainerHeaderMenuIconSocial>
                 </HeaderMenu>
-                <Option>
+                {/* <Option>
                     <OptionText $black={black} href="/blog">Blog</OptionText>
                 </Option>
                 <Option>
@@ -54,11 +54,11 @@ const Menu: FC<IProps> = ({ black }) => {
                 </Option>
                 <Option>
                     <OptionText $black={black} href="/#insights">Cases</OptionText>
-                </Option>
+                </Option> */}
                 <Option>
                     <OptionText $black={black} href="/#form">Fale Conosco</OptionText>
                 </Option>
-                <Button $align="center" $show={show} href="/#form">FALAR COM ESPECIALISTA</Button>
+                <Button $primary="secondary" $secondary="primary" $align="center" $show={show} href="/#form">FALAR COM ESPECIALISTA</Button>
             </Options>
         </Container>
     )

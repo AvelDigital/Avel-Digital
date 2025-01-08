@@ -1,3 +1,3 @@
-const words = ['Marketing', 'Vendas', 'Produtos', 'Reconhecimento']
+const words = ['Marketing', 'Vendas', 'Reconhecimento']
 
 export default words

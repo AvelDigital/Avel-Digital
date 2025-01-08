@@ -1,6 +1,7 @@
 import { FC } from 'react'
+import Line from '../Line'
 import { Container, Left, Image, Right, Title, Description } from './style'
-import ImageSRC from '../../public/img/animation-dynamic-and-integrated-solutions.gif'
+import ImageSRC from '../../public/img/image-agency.jpg'
 import { ButtonLink } from '../Button'
 
 interface IAbout {
@@ -9,16 +10,19 @@ interface IAbout {
 
 const About: FC<IAbout> = ({ CTA=true }) => {
     return (
-        <Container id="about">
-            <Left>
-                <Image unoptimized src={ImageSRC} alt="Animação Soluções dinâmicas e integradas"/>
-            </Left>
-            <Right>
-                <Title>Soluções dinâmicas e integradas para acelerar o seu crescimento.</Title>
-                <Description>O crescimento não depende de estrutura, segmento ou tamanho, mas sim de uma mentalidade inovadora. Não acreditamos em soluções mágicas para <span className="bold">transformar seu negócio</span>. Acreditamos na experimentação, na cultura de testes e no acúmulo de pequenas melhorias contínuas que, juntas, <span className="bold">geram resultados surpreendentes.</span></Description>
-                {CTA && <ButtonLink $primary="secondary" $secondary="primary" href="#form">FALAR COM ESPECIALISTA</ButtonLink>}
-            </Right>
-        </Container>
+        <>
+            <Line/>
+            <Container id="about">
+                <Left>
+                    <Image unoptimized src={ImageSRC} alt="Imagem agencia"/>
+                </Left>
+                <Right>
+                    <Title>Maximize sua performance digital com as melhores estratégias de marketing.</Title>
+                    <Description>Crescimento vem de mentalidade inovadora: apostamos em testes e melhorias contínuas para resultados surpreendentes. Escolha nossos serviços e conquiste resultados rápidos e consistentes.</Description>
+                    {CTA && <ButtonLink $primary="secondary" $secondary="primary" href="#form">FALAR COM ESPECIALISTA AGORA</ButtonLink>}
+                </Right>
+            </Container>
+        </>
     )
 }
 

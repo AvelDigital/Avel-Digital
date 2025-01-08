@@ -6,7 +6,7 @@ function Title() {
 
     return (
         <Container className="title">
-            Potencialize seus <br/> resultados em <br/> 
+            Transforme seu <br/> negócio com <br/> 
             <Dynamic className="dynamic">
                 <span className="value"></span>
                 <Cursor className="cursor">|</Cursor>

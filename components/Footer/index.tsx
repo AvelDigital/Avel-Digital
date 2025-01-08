@@ -17,25 +17,24 @@ function Footer() {
                 </Social>
             </Header>
             <Sections>
-                <SectionsRow>
+                {/* <SectionsRow>
                     <Section>
                         <SectionTitle>Soluções</SectionTitle>
                         <SectionLink href="#">Marketing digital e Vendas</SectionLink>
                         <SectionLink href="#">Negócios e educação</SectionLink>
                         <SectionLink href="#">Experiência e Produto</SectionLink>
                     </Section>
-                </SectionsRow>
+                </SectionsRow> */}
                 <SectionsRow>
                     <Section>
                         <SectionTitle>Insights</SectionTitle>
-                        <SectionLink href="/blog">Blog</SectionLink>
-                        <SectionLink href="/#insights">Cases</SectionLink>
-                        <SectionLink href="/#about">Sobre a Avel</SectionLink>
+                        {/* <SectionLink href="/blog">Blog</SectionLink> */}
+                        {/* <SectionLink href="/#insights">Cases</SectionLink> */}
+                        {/* <SectionLink href="/#about">Sobre a Avel</SectionLink> */}
                         <SectionLink href="/#form">Fale Conosco</SectionLink>
                     </Section>
                 </SectionsRow>
                 <SectionsRowEnd>
-                    <SectionEndLink href="https://api.whatsapp.com/send?phone=5581989119536&text=Quero%20gerar%20mais%20vendas">+55 81 9 8911 - 9536</SectionEndLink>
                     <ButtonLink href="/#form" $primary="secondary" $secondary="primary">FALAR COM ESPECIALISTA</ButtonLink>
                 </SectionsRowEnd>
             </Sections>

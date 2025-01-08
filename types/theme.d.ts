@@ -12,6 +12,7 @@ interface ITheme {
         primary: string
         tertiary: string
         secondary: string
+        tertiaryGlass: string
     }
 }
 

@@ -41,7 +41,8 @@ export const Step = styled.div`
     align-items: center;
     border-radius: 10px;
     flex-direction: row;
-    background-color: ${props => props.theme.backgrounds.tertiary};
+    border: 3px solid ${props => props.theme.colors.primary};
+    background-color: ${props => props.theme.backgrounds.tertiaryGlass};
 
     @media screen and (max-width: 900px) {
         width: 100%;
@@ -82,8 +83,8 @@ export const Form = styled.form`
     align-self: center;
     border-radius: 10px;
     justify-content: space-between;
-    border: 2px solid ${props => props.theme.colors.primary};
-    background-color: ${props => props.theme.backgrounds.tertiary};
+    border: 4px solid ${props => props.theme.colors.primary};
+    background-color: ${props => props.theme.backgrounds.tertiaryGlass};
 
     @media screen and (max-width: 900px) {
         width: 90%;

@@ -1,20 +1,24 @@
+import Line from '../Line'
 import { Container, Left, Subtitle, Title, Description, Right, Photo } from './style'
 import { ButtonLink } from '../Button'
 import PhotoMarketingSRC from '../../public/img/marketing.jpg'
 
 function Marketing() {
     return (
-        <Container>
-            <Left>
-                <Subtitle>marketing e vendas</Subtitle>
-                <Title>Estratégias Digitais e Resultados</Title>
-                <Description>Apoiamos e implementamos conteúdos para aumentar a participação das empresas B2B e B2C no mercado. Preencha as lacunas de negócios e acelere a sua agenda de crescimento!</Description>
-                <ButtonLink href="#form" $primary="secondary" $secondary="primary">FALAR COM ESPECIALISTA</ButtonLink>
-            </Left>
-            <Right>
-                <Photo placeholder="blur" src={PhotoMarketingSRC} alt="Imagem Marketing"/>
-            </Right>
-        </Container>
+        <>
+            <Line/>
+            <Container>
+                <Left>
+                    <Subtitle>marketing e vendas</Subtitle>
+                    <Title>Conheça nossa consultoria personalizada</Title>
+                    <Description>Vagas limitadas para consultoria personalizada garanta seu lugar e comece a ver resultados em menos de 30 dias</Description>
+                    <ButtonLink href="#form" $primary="secondary" $secondary="primary">FALAR COM ESPECIALISTA</ButtonLink>
+                </Left>
+                <Right>
+                    <Photo placeholder="blur" src={PhotoMarketingSRC} alt="Imagem Marketing"/>
+                </Right>
+            </Container>
+        </>
     )
 }
 

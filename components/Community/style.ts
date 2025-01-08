@@ -32,6 +32,7 @@ export const Title = styled.h3`
 
 export const Description = styled.span`
     margin-top: 2em;
+    font-size: 1.2em;
     text-align: center;
 
     @media screen and (max-width: 900px) {

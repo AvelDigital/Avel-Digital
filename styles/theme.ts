@@ -13,7 +13,8 @@ const theme: ITheme = {
     backgrounds: {
         primary: '#FFFFFF',
         tertiary: '#030243',
-        secondary: '#060606'
+        secondary: '#060606',
+        tertiaryGlass: 'rgba(3, 2, 67, 0.5)',
     }
 }
 

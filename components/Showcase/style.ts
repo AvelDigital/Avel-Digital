@@ -9,7 +9,8 @@ export const Container = styled.div`
 
 export const Title = styled.h3`
     width: 90%;
-    font-size: 1em;
     font-weight: 600;
+    font-size: 1.5em;
     text-align: center;
+    margin-bottom: 2em;
 `
