@@ -18,7 +18,7 @@ const About: FC<IAbout> = ({ CTA=true }) => {
                 </Left>
                 <Right>
                     <Title>Maximize sua performance digital com as melhores estratégias de marketing.</Title>
-                    <Description>Crescimento vem de mentalidade inovadora: apostamos em testes e melhorias contínuas para resultados surpreendentes. Escolha nossos serviços e conquiste resultados rápidos e consistentes.</Description>
+                    <Description>Apostamos em testes e melhorias contínuas para resultados surpreendentes. Escolha nossos serviços e conquiste resultados rápidos e consistentes.</Description>
                     {CTA && <ButtonLink $primary="secondary" $secondary="primary" href="#form">FALAR COM ESPECIALISTA AGORA</ButtonLink>}
                 </Right>
             </Container>
