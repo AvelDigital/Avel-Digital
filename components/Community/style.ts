@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-    background-color: ${props => props.theme.backgrounds.primary};
+    background-color: ${props => props.theme.backgrounds.secondary};
 `
 
 export const Content = styled.div`

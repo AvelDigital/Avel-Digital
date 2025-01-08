@@ -6,7 +6,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: #EFEFEF;
+    background-color: ${props => props.theme.backgrounds.secondary};
 
     @media screen and (max-width: 900px) {
         padding: 4em 2em;
@@ -50,7 +50,7 @@ export const Right = styled.div`
 
 export const Title = styled.h3`
     font-size: 3em;
-    color: ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.secondary};
 
     @media screen and (max-width: 900px) {
         font-size: 2em;
@@ -63,7 +63,7 @@ export const Description = styled.span`
     margin-top: 1em;
     font-weight: 300;
     margin-bottom: 2em;
-    color: ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.secondary};
 
     .bold {
         font-weight: bold;

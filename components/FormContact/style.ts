@@ -6,8 +6,8 @@ export const Container = styled.div`
     flex-wrap: wrap;
     padding-top: 2em;
     flex-direction: row;
-    background-color: #EFEFEF;
     justify-content: space-evenly;
+    background-color: ${props => props.theme.backgrounds.secondary};
 `
 
 export const Texts = styled.div`
@@ -23,7 +23,7 @@ export const Texts = styled.div`
 
 export const Title = styled.h3`
     margin-bottom: 2em;
-    color: ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.secondary};
     font-size: ${props => props.theme.fonts.title};
 
     @media screen and (max-width: 900px) {

@@ -13,7 +13,7 @@ const images: ILogosSlides['images'] = [
     { src: LogoMetaBusinessPartnerSRC, alt: 'Logo Meta Business Partner' },
     { src: LogoGooglePartnerSRC, alt: 'Logo Meta Business Partner' },
     { src: LogoHubSpotSRC, alt: 'Logo Hub Spot' },
-    { src: LogoSemRushSRC, alt: 'Logo SemRush' },
+    // { src: LogoSemRushSRC, alt: 'Logo SemRush' },
     { src: LogoDashgooSRC, alt: 'Logo Dashgoo' },
     { src: LogoGoogleAnalyticsSRC, alt: 'Logo Google Analytics' },
     { src: LogoGoogleDataStudio, alt: 'Logo Google Data Studio' },
