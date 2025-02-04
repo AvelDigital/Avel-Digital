@@ -6,7 +6,7 @@ function FormContact() {
         <Container id="form">
             <Line/>
             <Texts>
-                <Title>Pronto para transformar seu negócio? Preencha o formulário e aguarde o contato de um especialista.</Title>
+                <Title>Preencha o formulário e aguarde o contato de um especialista para uma consultoria gratuita</Title>
                 <Step>
                     <StepIcon xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" viewBox="0 0 24 24">
                         <g>
@@ -85,7 +85,7 @@ function FormContact() {
                         <option>Empresa Junior</option> 
                     </InputSelect>
                 </Field>
-                <Button $align="center" $primary="secondary" $secondary="primary">Enviar mensagem</Button>
+                <Button $align="center" $primary="secondary" $secondary="primary">Consultoria Gratuita</Button>
             </Form>
         </Container>
     )
