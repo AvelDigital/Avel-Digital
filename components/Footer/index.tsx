@@ -6,7 +6,7 @@ function Footer() {
     return (
         <Container>
             <Header>
-                <Title>AVEL - DIGITAL</Title>
+                <Title>AVEL - COMUNICAÇÃO</Title>
                 <Social>
                     <ContainerIconSocial aria-label="Ver Instagram" href="https://www.instagram.com/aveldigitall" target="_blank">
                         <IconSocial xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
