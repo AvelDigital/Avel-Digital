@@ -17,7 +17,7 @@ const About: FC<IAbout> = ({ CTA=true }) => {
                     <Image unoptimized src={ImageSRC} alt="Imagem agencia"/>
                 </Left>
                 <Right>
-                    <Title>Maximize sua performance digital com as melhores estratégias de marketing.</Title>
+                    <Title>Muito mais que marketing. Avel é publicidade com estratégia, impacto e resultado.</Title>
                     <Description>Apostamos em testes e melhorias contínuas para resultados surpreendentes. Escolha nossos serviços e conquiste resultados rápidos e consistentes.</Description>
                     {CTA && <ButtonLink $primary="secondary" $secondary="primary" href="#form">FALAR COM ESPECIALISTA AGORA</ButtonLink>}
                 </Right>
