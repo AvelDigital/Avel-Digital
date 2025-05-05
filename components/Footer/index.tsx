@@ -39,7 +39,7 @@ function Footer() {
                 </SectionsRowEnd>
             </Sections>
             <Privacy href="/privacy">Política de privacidade</Privacy>
-            <Copyright>Avel Digital LTDA 2024 © Todos os direitos reservados. Nascidos para vender o seu negocio{/*, CNPJ 55.284.642/0001-51.*/}</Copyright>
+            <Copyright>Avel Comunicação LTDA 2024 © Todos os direitos reservados. Nascidos para vender o seu negocio{/*, CNPJ 55.284.642/0001-51.*/}</Copyright>
         </Container>
     )
 }

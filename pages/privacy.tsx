@@ -11,7 +11,7 @@ function Privacy() {
                 <Title>Política de Privacidade</Title>
                 <Bold>Última atualização: 18/08/2024</Bold>
                 <Paragraph>
-                    A Avel Digital (doravante "nós", "nosso" ou "empresa") está comprometida em proteger a privacidade e os dados pessoais dos nossos usuários, clientes e parceiros. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos, compartilhamos e protegemos as informações pessoais fornecidas por você ao acessar e utilizar nossos serviços, site e plataformas.
+                    A Avel Comunicação (doravante "nós", "nosso" ou "empresa") está comprometida em proteger a privacidade e os dados pessoais dos nossos usuários, clientes e parceiros. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos, compartilhamos e protegemos as informações pessoais fornecidas por você ao acessar e utilizar nossos serviços, site e plataformas.
                 </Paragraph>
                 <Subtitle>1. Coleta de Informações</Subtitle>
                 <Bold>1.1. Informações Fornecidas por Você</Bold>
@@ -84,7 +84,7 @@ function Privacy() {
                 <Paragraph>Se você tiver dúvidas sobre esta Política de Privacidade ou sobre o tratamento de suas informações pessoais, entre em contato conosco: </Paragraph>
                 <br/>
                 <Paragraph>
-                    <Bold>Avel Digital</Bold>
+                    <Bold>Avel Comunicação</Bold>
                     <br/>
                     <br/>
                     Endereço: Poço da Panela, Casa Forte, Recife, Pernambuco
