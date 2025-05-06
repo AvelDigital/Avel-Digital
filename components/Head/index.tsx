@@ -11,7 +11,7 @@ interface IProps {
     description?: string
 }
 
-const Head: FC<IProps> = ({ title='Avel Comunicação', description='Geramos vendas, você colhe os resultados', url='', image='/img/thumbnail.png', author='Avel Comunicação', keywords='marketing digital, aumentar faturamento online, otimização de conversão, consultoria de marketing digital, agência de marketing, Avel Comunicação marketing' }) => {
+const Head: FC<IProps> = ({ title='Avel Creative', description='Geramos vendas, você colhe os resultados', url='', image='/img/thumbnail.png', author='Avel Creative', keywords='marketing digital, aumentar faturamento online, otimização de conversão, consultoria de marketing digital, agência de marketing, Avel Creative marketing' }) => {
     return (
         <>
             <HeadRaw>
