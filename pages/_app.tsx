@@ -5,6 +5,8 @@ import theme from '../styles/theme'
 import Head from 'next/head'
 import GlobalStyle from '../styles/global'
 import 'swiper/css'
+import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
@@ -28,6 +30,8 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
       </Head>
       <Component {...pageProps}/>
       <GlobalStyle/>
+      <Analytics/>
+      <SpeedInsights/>
     </ThemeProvider>
   )
 }
