@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { Container, ContainerLogo, Logo, IconPhoneContainer, IconPhone } from './style'
-import LogoAvelSRC from '../../public/img/Logo Avel.png'
+import LogoAvelSRC from '../../public/img/Logo Avel em Branco.png'
 import LogoAvelBlackSRC from '../../public/img/Logo Avel em Preto.png'
 import Menu from './Menu'
 
